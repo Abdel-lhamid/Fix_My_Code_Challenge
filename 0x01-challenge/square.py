@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 """ Square class """
+
+
 class Square():
     """ Square class """
     width = 0
@@ -21,6 +23,7 @@ class Square():
     def __str__(self):
         """ String representation """
         return "{}/{}".format(self.width, self.height)
+
 
 if __name__ == "__main__":
     """ Main function """
