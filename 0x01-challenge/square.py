@@ -19,7 +19,7 @@ class square():
 
 if __name__ == "__main__":
 
-    s = square(width=12)
+    s = square(12)
     print(s)
     print(s.area_of_my_square())
     print(s.PermiterOfMySquare())
